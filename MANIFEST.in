@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include hijri_date *.css
+recursive-include hijri_date *.csv
+recursive-include hijri_date *.html
+recursive-include hijri_date *.ico
+recursive-include hijri_date *.js
+recursive-include hijri_date *.json
+recursive-include hijri_date *.md
+recursive-include hijri_date *.png
+recursive-include hijri_date *.py
+recursive-include hijri_date *.svg
+recursive-include hijri_date *.txt
+recursive-exclude hijri_date *.pyc
