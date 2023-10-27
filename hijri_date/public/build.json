@@ -1,0 +1,5 @@
+{
+	"js/hijri_dare.min.js": [
+		"public/js/hijri_datepicker.js"
+	]
+}

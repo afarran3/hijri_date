@@ -1,0 +1,7 @@
+.w3-bar-item{border-left:6px solid transparent!important}
+.w3-bar-item:not(:disabled):hover{border-color:#f44336!important}
+.w3-bar-item:focus{border-color:#2196F3!important}
+.w3-bar-item.expanded{color:#fff;background-color:#616161}
+button.collapsed + div,button.collapsed>:nth-child(3),button.expanded>:nth-child(2){display:none!important}
+.w3-bar-item input[type=radio],.w3-bar-item label{cursor:pointer}
+.w3-bar-item:focus-within{border-color:#2196F3!important}

@@ -24,6 +24,28 @@ app_license = "MIT"
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
+app_include_css = [
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/redmond.calendars.picker.css",
+    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.css",
+    # "/assets/hijri_date/css/jquery.datetimepicker.css",
+    "hijri_date.bundle.css"
+]
+app_include_js = [
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.plugin.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.all.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.plus.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.picker.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-ar.js",
+    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-fa.js",
+    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.plugin.js",
+    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.js",
+    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry-ar.js",
+    # "/assets/hijri_date/js/lib/jquery.datetimepicker.js",
+    'hijri_date.bundle.js',
+]
+
 
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
