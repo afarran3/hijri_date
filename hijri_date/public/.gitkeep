@@ -1,0 +1,4 @@
+# build/
+hijri_date/public/dist
+.vscode
+.vs

@@ -1,6 +1,7 @@
 import momentTimezone from "moment-timezone/builds/moment-timezone-with-data.js";
 window.moment = momentTimezone;
 frappe.provide("frappe.ui");
+
 frappe.ui.form.ControlDate = class HijriDate extends frappe.ui.form.ControlDate{
     set_datepicker() {
         if(this.df.options == "Hijri"){
@@ -100,4 +101,41 @@ frappe.ui.form.ControlDate = class HijriDate extends frappe.ui.form.ControlDate{
 
     // }
 
+}
+
+frappe.ui.form.ControlDateRange = class HijriDateRange extends frappe.ui.form.ControlDateRange{
+    set_datepicker() {
+        if(this.df.options == "Hijri"){
+            this.datepicker_options = {
+                calendar: $.calendars.instance('islamic', 'ar'),
+                dateFormat: "dd-mm-yyyy",
+                showOnFocus: true,
+                rangeSelect: true,
+                // rangeSeparator:' to ',
+                // multiSelect: 2,
+                // multiSeparator: ",",
+                onDate: function(date) { 
+                    return {
+                        isSelectable: false
+                    } 
+                },
+                onSelect: (dates) => {
+                    if (dates.length === 0) {
+                        return false
+                    }
+                    var minDate = $.calendars.instance('islamic', 'ar').formatDate('yyyy-mm-dd', dates[0]);
+                    var maxDate = $.calendars.instance('islamic', 'ar').formatDate('yyyy-mm-dd', dates[1]);
+                        this.set_input(minDate, maxDate)  
+                },
+                
+            };
+            
+            $(this.$input).calendarsPicker(this.datepicker_options);
+  
+        }else{
+            this.$input.datepicker(this.datepicker_options);
+		    this.datepicker = this.$input.data("datepicker");
+        }
+	}
+    
 }
