@@ -3,5 +3,6 @@
 *.egg-info
 *.swp
 tags
+hijri_date/public/dist
 hijri_date/docs/current
 node_modules/

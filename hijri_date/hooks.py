@@ -25,24 +25,35 @@ app_license = "MIT"
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 app_include_css = [
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/redmond.calendars.picker.css",
-    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.css",
-    # "/assets/hijri_date/css/jquery.datetimepicker.css",
-    "hijri_date.bundle.css"
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/redmond.calendars.picker.css",
+    # "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.css",
+    # "/assets/hijri_date/js/lib/air-datepicker/dist/air-datepicker.css",
+    # # "/assets/hijri_date/css/jquery.datetimepicker.css",
+    # "hijri_date.bundle.css"
 ]
 app_include_js = [
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.plugin.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.all.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.plus.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.picker.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-ar.js",
-    "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-fa.js",
-    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.plugin.js",
-    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.js",
-    "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry-ar.js",
-    # "/assets/hijri_date/js/lib/jquery.datetimepicker.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.plugin.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.all.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.plus.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.picker.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-ar.js",
+    # "/assets/hijri_date/js/lib/jquery.calendars.package-2.0.2/jquery.calendars.islamic-fa.js",
+    # "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.plugin.js",
+    # "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry.js",
+    # "/assets/hijri_date/js/lib/jquery.timeentry.package-2.0.1/jquery.timeentry-ar.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/body.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/calendar.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/navigation.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/datepicker.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/timepicker.js",
+    # "/assets/hijri_date/js/lib/air-datepicker-master/src/js/i18n/datepicker.en.js",
+    # # '/assets/hijri_date/js/lib/hijri-air-datepicker-master/dist/js/moment.js',
+    # # '/assets/hijri_date/js/lib/hijri-air-datepicker-master/dist/js/moment-hijri.js',
+    # # '/assets/hijri_date/js/lib/hijri-air-datepicker-master/dist/js/hijri-datepicker.js',
+    # # "/assets/hijri_date/js/lib/air-datepicker-master/src/timepicker.en.js",
+    # # "/assets/hijri_date/js/lib/jquery.datetimepicker.js",
     'hijri_date.bundle.js',
 ]
 
