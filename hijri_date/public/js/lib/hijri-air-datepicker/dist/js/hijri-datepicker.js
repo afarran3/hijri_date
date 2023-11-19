@@ -1,7 +1,7 @@
 // require('./moment');
 // import './lib/hijri-air-datepicker-master/dist/js/moment.js'
 // import moment from './moment-hijri.js';
-const moment = require('moment-hijri');
+const moment = require('./moment-hijri');
 
 // require('./moment-hijri');
 ;(function (window, $, undefined) { ;(function () {
